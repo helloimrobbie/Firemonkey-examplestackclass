@@ -1,0 +1,56 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 334
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = Form3DCreate
+  DesignerMasterStyle = 0
+  object Layer3D1: TLayer3D
+    Align = Client
+    Height = 480.000000000000000000
+    Position.X = 167.000000000000000000
+    Position.Y = 240.000000000000000000
+    Projection = Screen
+    Resolution = 50
+    StyleLookup = 'backgroundstyle'
+    Width = 334.000000000000000000
+    object ListBox1: TListBox
+      Size.Width = 225.000000000000000000
+      Size.Height = 473.000000000000000000
+      Size.PlatformDefault = False
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 221.000000000000000000
+      Viewport.Height = 469.000000000000000000
+      object Button1: TButton
+        Position.X = 240.000000000000000000
+        Position.Y = 416.000000000000000000
+        TabOrder = 0
+        Text = #51077#47141
+        OnClick = Button1Click
+      end
+      object Button2: TButton
+        Position.X = 240.000000000000000000
+        Position.Y = 448.000000000000000000
+        TabOrder = 1
+        Text = #49325#51228
+        OnClick = Button2Click
+      end
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 2
+        Position.X = 240.000000000000000000
+        Position.Y = 384.000000000000000000
+        Size.Width = 81.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end
